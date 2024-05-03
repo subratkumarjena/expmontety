@@ -33,7 +33,8 @@ class AppDatabase{
 
     return await openDatabase(actualpath, version: 1,onCreate: (db, version){
       // table create
-      db.execute("create table note ( note_id integer primary key autoincrement, note_title text, note_desc text )");
+      db.execute("create table note ( user_id integer primary key autoincrement, user_phone text,"
+          " user_email text,user_name text,user_pass text )");
 
 
     });
