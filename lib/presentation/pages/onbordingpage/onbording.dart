@@ -1,6 +1,8 @@
-import 'package:expmontety/pages/home.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
+import '../homepage/home.dart';
 
 class Onbording extends StatelessWidget {
   Color myColor = Color(0xFF4752A5);

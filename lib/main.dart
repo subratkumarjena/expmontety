@@ -1,4 +1,5 @@
-import 'package:expmontety/pages/onbording.dart';
+
+import 'package:expmontety/presentation/pages/onbordingpage/onbording.dart';
 import 'package:flutter/material.dart';
 
 void main() {
