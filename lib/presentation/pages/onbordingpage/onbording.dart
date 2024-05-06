@@ -2,7 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../homepage/home.dart';
+import '../authpage/loginpage.dart';
+
 
 class Onbording extends StatelessWidget {
   Color myColor = Color(0xFF4752A5);
@@ -45,7 +46,7 @@ class Onbording extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton( onPressed: (){
         Navigator.pushReplacement(context, MaterialPageRoute(builder: (cotext){
-          return Home();
+          return LoginScreen();
         }));
 
       },backgroundColor: myColor,
